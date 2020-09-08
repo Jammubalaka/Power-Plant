@@ -1,0 +1,318 @@
+.header{
+			width: 98%;
+			display: flex;
+			flex-direction: row;
+			
+			margin: 1%;
+			border: 2px solid black;
+			box-shadow: 3px 3px 3px 3px grey;
+			height: 150px;
+			
+		}
+		.name{
+			width:70%;
+			text-align: center;
+			padding-top: 15px;
+			font-size: 25px;
+		}
+		.logo1{
+			width: 15%;
+		}
+		.logo2{
+			width: 15%;
+			height: 700px;
+		}
+		.logo1 img{
+			width: 70%;
+			height: 130px;
+			padding-top: 10px;
+			padding-left: 50px;
+		}
+		.logo2 img{
+			width: 70%;
+			height: 130px;
+			padding-top: 10px;
+			padding-right: 50px;
+
+		}
+		.links{
+			display: flex;
+			flex-direction: row;
+		}
+		.nav{
+
+			border-style: none;
+			border-radius: 30px;
+			width: 98%;
+			margin: 1%;
+		}
+		.nav button{
+			width:16.258%;
+			background-color: #5F9EA0;
+			padding: 1%;
+			font-size: 20px;
+			border: 1px solid black;
+
+		}
+		button:hover{
+			color: white;
+			background-color: lightblue;
+		}
+		.logo{
+		   width: 96%;
+		   display: flex;
+		   flex-direction: row;
+		   padding: 13px;
+		   margin: 1%;
+		   border: 3px solid black;
+		   height: 500px;
+		   }
+		
+		.logo img{
+			
+			width: 100%;
+			height: 500px;
+			
+		}
+		.flexcontainer{
+		width: 98%;
+		display: flex;
+		flex-direction: row;
+		margin: 1%;
+		
+	}
+		.models{
+		width: 30%;
+		margin: 1%;
+		padding: 1%;
+		border:2px solid #000;
+		border-radius: 0px 40px 0px 40px;
+		box-shadow: 2px 2px 2px 2px grey;
+	}
+	.models img{
+		width: 100%;
+		height: 37%;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.flexcontainer1{
+		width: 98%;
+		display: flex;
+		flex-direction: row;
+		margin: 1%;
+		
+	}.models1{
+		width: 30%;
+		margin: 1%;
+		padding: 1%;
+		border:2px solid #000;
+		border-radius: 40px 0px 40px 0px;
+		box-shadow: 2px 2px 2px 2px grey;
+	}
+	.models1 img{
+		width: 100%;
+		height: 37%;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.button{
+          width: 90px;
+          height: 35px; 
+          border-radius: 20px;
+          background-color: blue;
+          color: white;
+          margin-left: 130px;
+  	    }
+	.footer{
+		width: 96%;
+		border: 2px solid black;
+		
+		margin-left: 2%;
+		height: 30px;
+		text-align: center;
+		padding-top: 10px;
+		font-style: italic;
+		font-size: 20px;
+		background-color: cadetblue;
+		color: white;
+		
+	}
+	.haari{
+  	    	font-size: 40px;
+  	    	text-align: center;
+  	    	color:  #800080;
+  	    }
+  	    .haari1{
+  	    	font-size: 30px;
+  	    	text-indent: 70px;
+  	    	color: #A0522D;
+
+  	    }
+  	    
+	@media only screen and (min-width: 300px) and (max-width: 767px){
+		.links{
+			display: flex;
+			flex-direction: column;
+		}
+		.nav{
+			width: 100%;
+			margin: 1%;
+		}
+		.nav button{
+			width:100%;
+			padding: 1%;
+
+		}
+  	    .header{
+  	    	width: 100%;
+  	    	display: flex;
+  	    	flex-direction: column;
+  	    	height: 320px;
+  	    } 
+  	    .haari{
+  	    	font-size: 20px;
+  	    	text-align: center;
+  	    }
+  	    .haari1{
+  	    	font-size: 15px;
+  	    	text-indent: 20px;
+  	    	color: #A0522D;
+
+  	    }
+  	    .name{
+  	    	width: 100%;
+  	    	font-size: 15px;
+  	    }
+  	    .logo1{
+  	    	width: 90%;
+  	    	height: 200px;
+  	    	 margin-right: 150px;
+
+  	    }
+  	    .logo1 img{
+  	    	width: 80%;
+  	    	height: 200px;
+           
+  	    }
+  	    .logo2{
+  	    	 display: none;
+  	    	width: 80%;
+  	    	margin-left: 50px;
+  	    }
+  	    .logo2 img{
+  	    	width: 80%;
+  	    	height: 200px;
+
+  	    }
+  	    .name{
+  	    	text-align: center;
+  	    }
+  	    .button{
+  	    	margin-left: 100px;
+  	    }
+  	    .logo{
+  	    	
+  	    	width: 95%;
+  	    	margin: 1%;
+  	    	padding: 1%;
+  	    	height: 4%;
+
+  	    }
+  	    .logo img{
+  	    	height: 100px;
+  	    }
+		.flexcontainer{
+			flex-direction: column;
+		}
+		.models{
+			width: 96%;
+			padding: 2%;
+			
+		}
+		.models img{
+			border-radius: 30px;
+
+		}
+		.flexcontainer1{
+			flex-direction: column;
+		}
+		.models1{
+			width: 96%;
+			padding: 2%;
+			
+		}
+		.models1 img{
+			border-radius: 30px;
+
+		}
+		.footer{
+			padding: 1%;
+			font-size: 13px;
+
+		}
+	} 
+	@media only screen and (min-width: 768px) and (max-width: 1023px){
+		.nav{
+			width: 98%;
+			margin: 1%;
+		}
+		.nav button{
+			width:16%;
+			padding: 1%;
+			font-size: 15px;
+
+		}
+		.flexcontainer{
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+   	.models{
+   		flex-wrap: wrap;
+   		justify-content: space-around;
+   		width: 40%;
+   		
+   	}
+   	.flexcontainer1{
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+   	.models1{
+   		flex-wrap: wrap;
+   		justify-content: space-around;
+   		width: 40%;
+   		
+   	}
+   	.logo{
+		   width: 94%;
+		   display: flex;
+		   flex-direction: row;
+		   padding: 13px;
+		   margin: 1%;
+		   border: 3px solid black;
+		  }
+		  .footer{
+			padding: 1%;
+			font-size: 15px;
+
+		}
+		.logo1 img{
+			width: 70%;
+			height: 130px;
+			padding-top: 10px;
+			padding-left: 30px;
+		}
+		.logo2 img{
+			width: 70%;
+			height: 130px;
+			padding-top: 10px;
+			padding-right: 30px;
+
+		}.button{
+          width: 90px;
+          height: 35px; 
+          border-radius: 20px;
+          background-color: blue;
+          color: white;
+          margin-left: 110px;
+  	    }
+   	
+   }
+ 
